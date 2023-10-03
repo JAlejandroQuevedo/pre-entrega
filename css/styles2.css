@@ -1,0 +1,105 @@
+/* Boostrap Blog */
+.color-nav{
+    background-color: #E5E5E5;
+}
+.body-index-blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.conteiner-jac-1{
+    width: 1000px;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+.flex-blog-jac{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.uno{
+    /* background-color: aqua; */
+    grid-row: 3/4;
+    grid-column:2/3;
+}
+.dos{
+    /* background-color: brown; */
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+.tres{
+    /* background-color: blue; */
+    grid-row: 3/4;
+    grid-column: 4/5;
+}
+.cuatro{
+    /* background-color: blueviolet; */
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+.cinco{
+    /* background-color: crimson; */
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+.seis{
+    /* background-color: chocolate; */
+    grid-row: 1/2;
+    grid-column: 4/5;
+}
+.card img{
+    height: 300px;
+    width: 200px;
+}
+.img-center-blog-img{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 800px){
+    .body-index-blog{
+        width: 750px;
+        margin-top: 100px;
+    }
+    .conteiner-jac-1{
+        height: 900px;
+        width: 800px;
+    }
+    .img-center-blog-img{
+        display: flex;
+        justify-content: center;
+    }
+    .card img{
+        height: 300px;
+        width: 200px;
+    }
+    .uno{
+        /* background-color: aqua; */
+        border: none;
+    }
+    .dos{
+        /* background-color: brown; */
+        border: none;
+    
+    }
+    .tres{
+        /* background-color: blue; */
+        border: none;
+    }
+    .cuatro{
+        /* background-color: blueviolet; */
+        border: none;
+    }
+    .cinco{
+        /* background-color: crimson; */
+        border: none;
+    }
+    .seis{
+        /* background-color: chocolate; */
+        border: none;
+    
+    }
+}
